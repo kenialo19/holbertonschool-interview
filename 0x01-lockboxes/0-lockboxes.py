@@ -1,8 +1,10 @@
 #!/usr/bin/python3
+"""Lockboxes"""
+
+
 def canUnlockAll(boxes):
-    '''
-    Write a method that determines if all the boxes can be opened..
-    '''
+    """Write a method that determines if all the boxes can be opened.."""
+
     if (len(boxes) == 0):
         return False
     box = list(range(len(boxes)))
