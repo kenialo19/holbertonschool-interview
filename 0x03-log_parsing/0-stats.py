@@ -7,7 +7,7 @@ if __name__ == '__main__':
 
     def statistics(status_counts_dict, total_file_size):
         """ prints statistics at that moment"""
-        
+
         print("File size: {:d}".format(total_file_size))
         for code in sorted(status_counts_dict.keys()):
             value = status_counts_dict[code]
